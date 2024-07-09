@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to left, #202b47, #202b50);
+}
+*{
+    color: #7367f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    margin-top: 20px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #210c6e;
+    color: #ffffff;
+    border-radius: 20px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #330a86;
+    box-shadow: 0 0 10px rgba(93, 16, 209, 0.7)
+  }
